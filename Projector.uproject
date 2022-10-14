@@ -1,7 +1,28 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.22",
+	"EngineAssociation": "5.0",
 	"Category": "",
 	"Description": "",
-	"Enterprise": true
+	"Enterprise": true,
+	"Plugins": [
+		{
+			"Name": "HAPMedia",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MediaFrameworkUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "MfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		}
+	]
 }
